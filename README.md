@@ -13,5 +13,6 @@ change the external table to partionned Table in Bigquery
 
 and Finally make the dashboard via data studio  
 
+![image](https://user-images.githubusercontent.com/93529690/161269729-d1886080-a0c5-469b-8641-e3c5b7fae8a8.png)
 
 
