@@ -9,7 +9,12 @@ transform via airflow :
 ![image](https://user-images.githubusercontent.com/93529690/161269038-d6a29e88-7a93-4fb3-af56-aa2162109362.png)
 
 
-change the external table to partionned Table in Bigquery 
+change the external table to partionned Table:
+
+CREATE OR REPLACE TABLE `dtc-de-project-344521.dataset.mexbike_partitioned`
+PARTITION BY Fecha_Retiro
+   AS
+SELECT * FROM `dtc-de-project-344521.dataset.mexbike_non_partitioned` ;
 
 and Finally make the dashboard via data studio  
 
